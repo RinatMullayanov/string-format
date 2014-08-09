@@ -1,0 +1,29 @@
+{
+  "name": "string-format",
+  "version": "0.0.1",
+  "description": "string.format like C#",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RinatMullayanov/string-format.git"
+  },
+  "keywords": [
+    "string",
+    "format"
+  ],
+  "author": {
+    "name": "Rinat Mullayanov",
+    "email": "nutsgamedev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RinatMullayanov/string-format/issues"
+  },
+  "homepage": "https://github.com/RinatMullayanov/string-format"
+}
