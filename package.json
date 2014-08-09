@@ -1,10 +1,6 @@
 {
   "name": "string-formatter",
-<<<<<<< HEAD
   "version": "0.1.0",
-=======
-  "version": "0.0.3",
->>>>>>> b77df90c01e36625d0e577dc06a574210f48478b
   "description": "String.Format like C#",
   "main": "index.js",
   "directories": {
