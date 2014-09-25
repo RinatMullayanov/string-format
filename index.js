@@ -1,3 +1,4 @@
+'use strict';
 var string = {};
 /*
     Replaces the format item in a specified string 
@@ -13,12 +14,13 @@ string.format = function( /*..*/ ) {
         // object pass like two argument
         var obj = allArgs[1];
         for (var prop in obj) {
-            if (!obj.hasOwnProperty(prop)) continue;
-            result = result.replace('{' + prop + '}', obj[prop]);
+            if (obj.hasOwnProperty(prop)) {
+                result = result.replace('{' + prop + '}', obj[prop]);
+            }
         }
     } else {
-        // many argsmany separate elements
-        var args = allArgs.filter(function(item, i, arr) {
+        // many args separate elements
+        var args = allArgs.filter(function(item, i) {
             return i > 0;
         });
 
@@ -28,6 +30,6 @@ string.format = function( /*..*/ ) {
     }
 
     return result;
-}
+};
 
 module.exports = string;

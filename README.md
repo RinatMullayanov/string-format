@@ -1,4 +1,5 @@
-string-format
+string-format Version: 0.2.1.
+JSHint passed.
 =============
 
 Lib for work with string like String.Format from C#
