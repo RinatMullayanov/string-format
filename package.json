@@ -1,6 +1,6 @@
 {
   "name": "string-formatter",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "String.Format like C#",
   "main": "index.js",
   "directories": {
@@ -15,7 +15,9 @@
   },
   "keywords": [
     "string",
-    "format"
+    "format",
+    "util",
+    "typescript"
   ],
   "author": {
     "name": "Rinat Mullayanov",
