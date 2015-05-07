@@ -1,4 +1,4 @@
-string-format Version: 0.2.4.
+string-format Version: 0.2.5.
 JSHint passed.
 =============
 

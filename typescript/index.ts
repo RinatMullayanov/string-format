@@ -1,5 +1,5 @@
 /// <reference path="../typings/tsd.d.ts"/>
-var stringLib :{
+var stringLib: {
   format: (...params: any[]) => string
 };
 /*
