@@ -1,10 +1,12 @@
 /// <reference path="../typings/tsd.d.ts"/>
-var string = <any> {};
+var stringLib :{
+  format: (...params: any[]) => string
+};
 /*
     Replaces the format item in a specified string
     with the string representation of a corresponding object in a specified array.
 */
-string.format = function format(...params) {
+stringLib.format = function format(...params: any[]): string {
   var allArgs = params;
   var format = allArgs[0];
   var result = format.substring(0, format.length);
@@ -32,4 +34,4 @@ string.format = function format(...params) {
 
 }
 
-export = string;
+export = stringLib;
